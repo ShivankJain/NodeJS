@@ -32,4 +32,6 @@ const fs = require("fs");
 
 // ########################### APPEND #######################
 
+// fs.appendFileSync("./contacts.txt", new Date().getDate().toLocaleString())  /// always string
 
+fs.appendFileSync("./contacts.txt", `\n James Jain : +1893939399`)
